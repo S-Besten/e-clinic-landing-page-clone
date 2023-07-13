@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AE-FUTHA LANDING PAGE</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Shepherd Uwem Ekanem">
+        <meta name="description" content="This is login landing page of AE-FUTHA e-clinic web app">
+        <link rel="icon" href="Img_fetha/index.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="fetha.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="landing-page">
+            <div class="login">
+                <img class="e-clinic-logo" src="img_fetha/logo.svg" alt="e-clinic logo" title="This is the e-clinic logo">
+                <img class="fetha-logo" src="img_fetha/index.jpg" alt="AE-FUTHA logo" title="This is AE-FUTHA logo">
+                <p class="name">AE-FUTHA 2</p>
+                <p class="account">Sign into your Account</p>
+
+
+                <form class="the-form" action="https://httpbin.org/get" method="post">
+                  <p class="enter1">Email or Username</p>
+                    <label class="email" for="username">
+                        <input class="username" type="text" name="username" id="username" autocomplete="on" required>
+                    </label>
+                    <p class="enter2">Password</p>
+                    <label class="password" for="password">
+                        <input class="username" type="password" name="password" id="password" autocomplete="off" required>                        
+                    </label>
+                </form>
+                
+                <submit class="submit" action="https://httpbin.org/get" method="get">Sign in</submit>
+
+
+                <p class="forgot"><a href="https://www.google.com">Forgot Password&#63;</a></p>
+                <P class="patient">Are you a patient&#63; <a id="link" href="https://www.google.com">Visit the Patient's Portal</a></P>
+
+            </div>
+            <div class="login-doctor">
+                <img class="doctor" src="img_fetha/login-doctor.png" alt="Login Doctor" title="This is the log in picture, if it doest show, don't worry, it will not affect you loging into the system" width="430" height="620">
+            </div>
+        </div>
+    </body>
+</html>
